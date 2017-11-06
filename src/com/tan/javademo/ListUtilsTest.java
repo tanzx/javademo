@@ -1,4 +1,4 @@
-package com.tan.springdemo.trial.beanpostprocess;
+package com.tan.javademo;
 
 import java.util.Arrays;
 import java.util.List;
