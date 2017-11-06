@@ -10,7 +10,7 @@ import java.util.ListIterator;
  * 如果使用一个单链表，向前迭代遍历是很低效的。
  * Java List接口中只有正向迭代器，没有反向迭代器。
  * 
- * @see https://stackoverflow.com/questions/42236654/descendingiterator-for-java-util-list#
+ * @see https://stackoverflow.com/questions/42236654/descendingiterator-for-java-util-list
  * @author
  *
  */
