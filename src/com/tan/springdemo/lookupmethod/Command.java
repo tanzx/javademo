@@ -1,4 +1,4 @@
-package com.tan.springdemo.trial.lookupmethod;
+package com.tan.springdemo.lookupmethod;
 
 public interface Command {
 
