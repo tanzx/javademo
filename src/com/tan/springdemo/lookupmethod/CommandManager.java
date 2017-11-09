@@ -1,4 +1,4 @@
-package com.tan.springdemo.trial.lookupmethod;
+package com.tan.springdemo.lookupmethod;
 
 import org.springframework.beans.factory.annotation.Lookup;
 import org.springframework.stereotype.Component;
@@ -16,10 +16,6 @@ public abstract class CommandManager {
 		command.setState(commandState);
 		return command;
 	}
-
-//	private Command createCommand() {
-//		return null;
-//	}
 	
 	// 运行时每次调用这个方法都会创建一个新的对象
 	@Lookup
