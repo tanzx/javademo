@@ -1,8 +1,8 @@
-package com.tan.decorator;
+package com.tan.javademo.decorator;
 
 import org.junit.Test;
 
-public class DecoratorDemo2 {
+public class DecoratorDemo {
 	@Test
 	public void test() {
 		MakerFactory.get(false, false, false).make();
