@@ -1,4 +1,4 @@
-package com.tan.javademo;
+package com.tan.javademo.collection;
 
 import java.util.Iterator;
 import java.util.List;
