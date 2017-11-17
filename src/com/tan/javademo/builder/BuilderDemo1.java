@@ -1,4 +1,4 @@
-package com.tan.build;
+package com.tan.javademo.builder;
 
 import org.junit.Test;
 
