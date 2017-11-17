@@ -1,7 +1,8 @@
-package com.tan.build;
+package com.tan.javademo.builder;
 
 import org.junit.Test;
 
+// 推荐使用这个示例，实现建造者模式
 public class BuilderDemo2 {
 	@Test
 	public void test() {
