@@ -27,9 +27,9 @@ class Product {
 	private int price;
 	private String brand;
 
-	private Product(int price, String brand) {
-		this.price = price;
-		this.brand = brand;
+	private Product(ProductBuilder builder) {
+		this.price = builder.price;
+		this.brand = builder.brand;
 	}
 
 	public static ProductBuilder builder() {
@@ -66,9 +66,9 @@ class Product {
 			return this;
 		}
 
-		// 延迟创建真正的对象。生成builder对象，不会立即去创建Product对象。
+		// 延迟创建真正的对象。生成builder对象时，不会立即去创建Product对象。
 		public Product build() {
-			return new Product(price, brand);
+			return new Product(this);
 		}
 
 	}
