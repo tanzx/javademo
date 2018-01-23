@@ -1,4 +1,4 @@
-阿里盒马领域驱动设计实践  
+阿里盒马领域驱动设计实践 
 http://www.infoq.com/cn/articles/alibaba-freshhema-ddd-practice?utm_source=tuicool&utm_medium=referral
 
 项目都有数据库，都有数据持久化。项目都围绕着数据持久化做设计。
