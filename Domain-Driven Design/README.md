@@ -10,3 +10,5 @@ http://www.infoq.com/cn/articles/alibaba-freshhema-ddd-practice?utm_source=tuico
 复杂查询直接与数据库打交道。
 
 类之间的循环引用。无向有环圈转化成有向无环。
+
+依赖注入。工厂模式解决从Spring中取bean到领域对象的问题。
